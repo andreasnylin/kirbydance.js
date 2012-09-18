@@ -7,6 +7,6 @@
 	
 	window.setInterval(function() {
 		d.title = a[i++] + " " + t;
-		i >= l&&(i = 0);
+		i > l&&(i = 0);
 	}, 1E3);
 })();
