@@ -1,6 +1,6 @@
 (function() {
 	var a = "(>'.')>;<('.'<);^( '.' )^;v( '.' )v;<('.'<);(>'.')>;^( '.' )>;<( '.' )^;<( '.' )>;(>'.'<)".split(";"),
-		l = a.length,
+		l = a.length - 1,
 		d = document,
 		t = document.title,
 		i = 0;
